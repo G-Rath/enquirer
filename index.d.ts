@@ -45,6 +45,7 @@ interface ArrayPromptOptions extends BasePromptOptions {
   edgeLength?: number
   align?: 'left' | 'right'
   scroll?: boolean
+  default?: string | string[]
 }
 
 interface BooleanPromptOptions extends BasePromptOptions {
